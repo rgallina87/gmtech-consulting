@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 512 512">
+  <!-- iHub ERP · GM Tech Consulting. Colores del sitio: marino #12253A, acción #0079B4, vivo #0099FF, corinto #8C1D40. -->
+  <rect width="512" height="512" fill="#12253A"/>
+  <g fill="none" stroke="#0099FF" stroke-width="2.5">
+    <polygon points="256,40 412,124 412,300 256,384 100,300 100,124"/>
+    <line x1="256" y1="40" x2="256" y2="14"/><line x1="412" y1="124" x2="436" y2="110"/><line x1="412" y1="300" x2="436" y2="314"/>
+    <line x1="100" y1="124" x2="76" y2="110"/><line x1="100" y1="300" x2="76" y2="314"/><line x1="256" y1="384" x2="256" y2="410"/>
+  </g>
+  <g fill="#12253A" stroke="#0099FF" stroke-width="2.5">
+    <circle cx="256" cy="12" r="6"/><circle cx="438" cy="108" r="6"/><circle cx="438" cy="316" r="6"/>
+    <circle cx="74" cy="108" r="6"/><circle cx="74" cy="316" r="6"/><circle cx="256" cy="412" r="6"/>
+  </g>
+  <polygon points="256,82 376,146 376,278 256,342 136,278 136,146" fill="none" stroke="#5CC2FF" stroke-width="1.5" stroke-dasharray="6 6" opacity=".7"/>
+  <g fill="#12253A" stroke="#5CC2FF" stroke-width="1.5" opacity=".9">
+    <circle cx="256" cy="82" r="5"/><circle cx="376" cy="146" r="5"/><circle cx="376" cy="278" r="5"/>
+    <circle cx="136" cy="146" r="5"/><circle cx="136" cy="278" r="5"/><circle cx="256" cy="342" r="5"/>
+  </g>
+  <polygon points="256,118 344,166 344,258 256,306 168,258 168,166" fill="#0079B4"/>
+  <text x="256" y="246" text-anchor="middle" font-family="Helvetica Neue, Arial, sans-serif" font-weight="700" font-size="96" fill="#FFFFFF" letter-spacing="-2">iH</text>
+  <circle cx="318" cy="170" r="9" fill="#8C1D40" stroke="#FFFFFF" stroke-width="2"/>
+  <line x1="150" y1="436" x2="362" y2="436" stroke="#8C1D40" stroke-width="3"/>
+  <text x="256" y="480" text-anchor="middle" font-family="Helvetica Neue, Arial, sans-serif" font-weight="700" font-size="44" fill="#FFFFFF" letter-spacing="1">iHub ERP</text>
+  <text x="256" y="503" text-anchor="middle" font-family="Helvetica Neue, Arial, sans-serif" font-weight="600" font-size="13" fill="#5CC2FF" letter-spacing="3">GM TECH CONSULTING</text>
+</svg>
