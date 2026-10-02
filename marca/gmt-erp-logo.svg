@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 512 512">
+  <!-- Logo de Roberto (diseño original GMT ERP) con los colores del sitio: marino #12253A, fondo oscuro #0B1622, vivo #0099FF, acción #0079B4, corinto #8C1D40. -->
+  <rect width="512" height="512" fill="#12253A"/>
+  <g fill="none" stroke="#0099FF" stroke-width="2">
+    <polygon points="256,36 412,124 412,304 256,394 100,304 100,124"/>
+    <line x1="256" y1="36" x2="256" y2="4"/><line x1="412" y1="124" x2="442" y2="106"/><line x1="412" y1="304" x2="442" y2="322"/>
+    <line x1="100" y1="124" x2="70" y2="106"/><line x1="100" y1="304" x2="70" y2="322"/><line x1="256" y1="394" x2="256" y2="430"/>
+  </g>
+  <g fill="#12253A" stroke="#0099FF" stroke-width="2">
+    <circle cx="256" cy="2" r="5"/><circle cx="443" cy="106" r="5"/><circle cx="443" cy="323" r="5"/>
+    <circle cx="68" cy="106" r="5"/><circle cx="68" cy="323" r="5"/><circle cx="256" cy="431" r="5"/>
+  </g>
+  <polygon points="256,77 375,146 375,285 256,353 137,285 137,146" fill="none" stroke="#5CC2FF" stroke-width="1" stroke-dasharray="4 4" opacity=".8"/>
+  <g fill="#12253A" stroke="#5CC2FF" stroke-width="1" opacity=".9">
+    <circle cx="256" cy="77" r="5"/><circle cx="375" cy="146" r="5"/><circle cx="375" cy="285" r="5"/>
+    <circle cx="137" cy="146" r="5"/><circle cx="137" cy="285" r="5"/><circle cx="256" cy="353" r="5"/>
+  </g>
+  <polygon points="256,116 342,165 342,265 256,314 170,265 170,165" fill="#0B1622" stroke="#0079B4" stroke-width="1.5"/>
+  <text x="256" y="257" text-anchor="middle" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-weight="700" font-size="92" fill="#0099FF">G</text>
+  <line x1="136" y1="434" x2="376" y2="434" stroke="#8C1D40" stroke-width="2"/>
+  <text x="256" y="494" text-anchor="middle" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-weight="700" font-size="50" fill="#FFFFFF">GMT ERP</text>
+  <text x="256" y="512" text-anchor="middle" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="14" fill="#0099FF" letter-spacing="2">ERP SYSTEM</text>
+</svg>
