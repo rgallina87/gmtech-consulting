@@ -1,0 +1,72 @@
+/* GM Tech Consulting · hoja única del sitio. Tokens de color en :root, modo oscuro por preferencia del sistema. */
+:root{
+  --fondo:#f4f6f9; --panel:#ffffff; --tinta:#12253a; --suave:#56657a; --linea:#d9e1ea;
+  --accion:#0079b4; --vivo:#0099ff; --acento:#8c1d40; --banda:#12253a; --banda-tinta:#eef3f8;
+  --f-texto:"Myriad Pro","Source Sans 3","Segoe UI",system-ui,sans-serif;
+  --f-mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme: dark){
+  :root{--fondo:#0b1622; --panel:#12253a; --tinta:#e8eef5; --suave:#9fb0c3; --linea:#22384f;
+    --accion:#4fb3e6; --vivo:#5cc2ff; --acento:#e07a9a; --banda:#071019; --banda-tinta:#e8eef5; color-scheme:dark}
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--fondo);color:var(--tinta);font-family:var(--f-texto);font-size:17px;line-height:1.55}
+a{color:var(--accion)}
+img{max-width:100%}
+.ancho{max-width:1080px;margin:0 auto;padding-inline:20px}
+
+/* Barra superior */
+.barra{background:var(--panel);border-bottom:1px solid var(--linea)}
+.barra .ancho{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px;padding-block:14px}
+.marca{display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--tinta);font-weight:700;letter-spacing:.01em}
+.marca svg{flex:none}
+.marca small{display:block;font-weight:400;color:var(--suave);font-size:.78rem;letter-spacing:.06em;text-transform:uppercase}
+nav{display:flex;flex-wrap:wrap;gap:4px 18px;font-size:.95rem}
+nav a{text-decoration:none;color:var(--tinta)}
+nav a:hover{color:var(--accion)}
+
+/* Portada */
+.portada{background:var(--banda);color:var(--banda-tinta);border-bottom:4px solid var(--acento)}
+.portada .ancho{padding-block:64px 56px;display:grid;gap:18px}
+.etiqueta{font-size:.78rem;letter-spacing:.1em;text-transform:uppercase;color:var(--vivo);font-weight:700;margin:0}
+h1{font-size:clamp(2rem,4.5vw,3rem);line-height:1.1;margin:0;text-wrap:balance;max-width:20ch}
+.portada p.lema{margin:0;max-width:60ch;font-size:1.1rem;opacity:.9}
+.botones{display:flex;flex-wrap:wrap;gap:12px;margin-top:6px}
+.boton{display:inline-block;padding:11px 20px;border-radius:6px;background:var(--accion);color:#fff;text-decoration:none;font-weight:600}
+.boton.claro{background:transparent;border:1px solid currentColor;color:var(--banda-tinta)}
+
+/* Secciones */
+section{padding-block:56px}
+section + section{border-top:1px solid var(--linea)}
+h2{font-size:1.7rem;margin:0 0 8px;text-wrap:balance}
+.intro{color:var(--suave);max-width:65ch;margin:0 0 28px}
+.productos{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:24px}
+.producto{background:var(--panel);border:1px solid var(--linea);border-top:4px solid var(--accion);border-radius:8px;padding:24px;display:grid;gap:12px;align-content:start;min-width:0}
+.producto h3{margin:0;font-size:1.35rem}
+.producto .para{margin:0;color:var(--suave);font-size:.95rem}
+.producto ul{margin:0;padding-left:20px;display:grid;gap:6px}
+.sello{display:inline-block;font-size:.72rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--acento);margin:0}
+
+.pasos{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px;counter-reset:paso;padding:0;margin:0;list-style:none}
+.pasos li{counter-increment:paso;display:grid;gap:4px;min-width:0}
+.pasos li::before{content:counter(paso,decimal-leading-zero);font-family:var(--f-mono);color:var(--accion);font-weight:500}
+.pasos strong{font-size:1.05rem}
+.pasos span{color:var(--suave);font-size:.95rem}
+
+.contacto{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:20px}
+.dato{display:grid;gap:2px;min-width:0}
+.dato b{font-size:.78rem;letter-spacing:.08em;text-transform:uppercase;color:var(--suave);font-weight:600}
+.dato span,.dato a{overflow-wrap:anywhere}
+
+/* Páginas legales */
+.legal .ancho{max-width:760px}
+.legal h1{font-size:2.2rem;max-width:none}
+.legal h2{font-size:1.25rem;margin-top:32px}
+.legal p,.legal li{max-width:68ch}
+.legal .fecha{color:var(--suave);font-size:.95rem}
+
+footer{background:var(--banda);color:var(--banda-tinta);font-size:.9rem}
+footer .ancho{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px;padding-block:24px}
+footer a{color:var(--banda-tinta)}
+footer nav a{color:var(--banda-tinta)}
